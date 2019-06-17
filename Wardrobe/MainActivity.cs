@@ -19,6 +19,22 @@ namespace Wardrobe
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
+            var avatar = new Avatar();
+            avatar.Head = "Baseball Cap";
+            avatar.Shirt = "Tanktop";
+            avatar.Pants = "Shorts";
+
+            var headView = FindViewById<TextView>(Resource.Id.AvatarHead);
+            headView.Text = $"Avatar Head: {avatar.Head}";
+
+            var shirtView = FindViewById<TextView>(Resource.Id.AvatarShirt);
+            shirtView.Text = $"Avatar Shirt: {avatar.Shirt}";
+
+            var pantsView = FindViewById<TextView>(Resource.Id.AvatarPants);
+            pantsView.Text = $"Avatar Pants: {avatar.Pants}";
+
+            //TextView txtView = (TextView)FindViewById(R.id.AvatarHead);
+            //txtView.Text = "HALLO"
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
