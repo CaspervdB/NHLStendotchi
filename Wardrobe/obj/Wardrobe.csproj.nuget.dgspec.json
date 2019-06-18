@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caspe\\source\\repos\\NHLStendotchi\\Wardrobe\\Wardrobe.csproj": {}
+    "C:\\Users\\caspe\\source\\repos\\Stone\\NHLStendotchi\\Wardrobe\\Wardrobe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caspe\\source\\repos\\NHLStendotchi\\Wardrobe\\Wardrobe.csproj": {
+    "C:\\Users\\caspe\\source\\repos\\Stone\\NHLStendotchi\\Wardrobe\\Wardrobe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caspe\\source\\repos\\NHLStendotchi\\Wardrobe\\Wardrobe.csproj",
+        "projectUniqueName": "C:\\Users\\caspe\\source\\repos\\Stone\\NHLStendotchi\\Wardrobe\\Wardrobe.csproj",
         "projectName": "Wardrobe",
-        "projectPath": "C:\\Users\\caspe\\source\\repos\\NHLStendotchi\\Wardrobe\\Wardrobe.csproj",
+        "projectPath": "C:\\Users\\caspe\\source\\repos\\Stone\\NHLStendotchi\\Wardrobe\\Wardrobe.csproj",
         "packagesPath": "C:\\Users\\caspe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caspe\\source\\repos\\NHLStendotchi\\Wardrobe\\obj\\",
+        "outputPath": "C:\\Users\\caspe\\source\\repos\\Stone\\NHLStendotchi\\Wardrobe\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\caspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
