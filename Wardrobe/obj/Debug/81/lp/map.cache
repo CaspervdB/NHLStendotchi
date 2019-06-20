@@ -23,6 +23,3 @@ Xamarin.Android.Support.v7.AppCompat
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 Xamarin.Essentials
-System.Reflection.Extensions
-netstandard
-System.Text.Encoding.CodePages
