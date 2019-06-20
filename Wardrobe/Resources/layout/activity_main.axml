@@ -9,35 +9,41 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main">
 
+
     <TextView
-        android:id="@+id/AvatarHead"
+        android:id="@+id/AvatarTopper"
         android:textSize="18dp"
         android:layout_width="match_parent"
         android:layout_height="24dp"
         android:layout_margin="8dp"
-    />
-    
-    <TextView
-        android:id="@+id/AvatarShirt"
-        android:textSize="18dp"
-        android:layout_width="match_parent"
-        android:layout_height="24dp"
-        android:layout_margin="8dp"
-    />
-    
-    <TextView
-        android:id="@+id/AvatarPants"
-        android:textSize="18dp"
-        android:layout_width="match_parent"
-        android:layout_height="24dp"
-        android:layout_margin="8dp"
+        android:text="PLACEHOLDER TOPPER" 
     />
 
-    <!--<View
+    <TextView
+        android:id="@+id/AvatarUpperBody"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_margin="8dp"
+        android:text="PLACEHOLDER UPPERBODY" 
+    />
+
+    <TextView
+        android:id="@+id/AvatarLowerBody"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_margin="8dp"
+        android:text="PLACEHOLDER LOWERBODY" 
+    />
+
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="8dp"
-        android:background="#FF0000" 
-    />-->
+        android:background="#000"
+    >
+
+    </LinearLayout>-->
 
 </LinearLayout>

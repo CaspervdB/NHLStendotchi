@@ -12,6 +12,7 @@ namespace Wardrobe
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        private Avatar _avatar;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -19,22 +20,22 @@ namespace Wardrobe
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
-            var avatar = new Avatar();
-            avatar.Head = "Baseball Cap";
-            avatar.Shirt = "Tanktop";
-            avatar.Pants = "Shorts";
 
-            var headView = FindViewById<TextView>(Resource.Id.AvatarHead);
-            headView.Text = $"Avatar Head: {avatar.Head}";
+            this._avatar = new Avatar(this);
 
-            var shirtView = FindViewById<TextView>(Resource.Id.AvatarShirt);
-            shirtView.Text = $"Avatar Shirt: {avatar.Shirt}";
+            // Create Events
+            SetOnClick(Resource.Id.AvatarTopper, this._avatar.NextTopper);
+            SetOnClick(Resource.Id.AvatarUpperBody, this._avatar.NextUpperBody);
+            SetOnClick(Resource.Id.AvatarLowerBody, this._avatar.NextLowerBody);
+        }
 
-            var pantsView = FindViewById<TextView>(Resource.Id.AvatarPants);
-            pantsView.Text = $"Avatar Pants: {avatar.Pants}";
-
-            //TextView txtView = (TextView)FindViewById(R.id.AvatarHead);
-            //txtView.Text = "HALLO"
+        private void SetOnClick(int resourceId, Action onClickFunction)
+        {
+            var view = FindViewById(resourceId);
+            view.Click += delegate
+            {
+                onClickFunction();
+            };
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)

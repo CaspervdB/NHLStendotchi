@@ -2432,14 +2432,14 @@ namespace Wardrobe
 			// aapt resource value: 0x7f090032
 			public const int ALT = 2131296306;
 			
-			// aapt resource value: 0x7f09008b
-			public const int AvatarHead = 2131296395;
-			
 			// aapt resource value: 0x7f09008d
-			public const int AvatarPants = 2131296397;
+			public const int AvatarLowerBody = 2131296397;
+			
+			// aapt resource value: 0x7f09008b
+			public const int AvatarTopper = 2131296395;
 			
 			// aapt resource value: 0x7f09008c
-			public const int AvatarShirt = 2131296396;
+			public const int AvatarUpperBody = 2131296396;
 			
 			// aapt resource value: 0x7f090033
 			public const int CTRL = 2131296307;

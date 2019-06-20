@@ -734,9 +734,9 @@ int drawable notify_panel_notification_icon_bg 0x7f020065
 int drawable tooltip_frame_dark 0x7f020066
 int drawable tooltip_frame_light 0x7f020067
 int id ALT 0x7f090032
-int id AvatarHead 0x7f09008b
-int id AvatarPants 0x7f09008d
-int id AvatarShirt 0x7f09008c
+int id AvatarLowerBody 0x7f09008d
+int id AvatarTopper 0x7f09008b
+int id AvatarUpperBody 0x7f09008c
 int id CTRL 0x7f090033
 int id FUNCTION 0x7f090034
 int id META 0x7f090035

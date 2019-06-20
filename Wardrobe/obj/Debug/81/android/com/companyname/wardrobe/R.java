@@ -2948,9 +2948,9 @@ containing a value of this type.
     }
     public static final class id {
         public static final int ALT=0x7f090032;
-        public static final int AvatarHead=0x7f09008b;
-        public static final int AvatarPants=0x7f09008d;
-        public static final int AvatarShirt=0x7f09008c;
+        public static final int AvatarLowerBody=0x7f09008d;
+        public static final int AvatarTopper=0x7f09008b;
+        public static final int AvatarUpperBody=0x7f09008c;
         public static final int CTRL=0x7f090033;
         public static final int FUNCTION=0x7f090034;
         public static final int META=0x7f090035;
